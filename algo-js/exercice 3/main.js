@@ -3,11 +3,11 @@ let b = 4;
 let c = 3;
 
 switch (a) {
-  case (a = b):
+  case b:
     console.log("égal à B");
     break;
 
-  case (a = c):
+  case c:
     console.log("égal à C");
     break;
 
