@@ -26,7 +26,7 @@ result = values.reduce((acc, value) => acc + value.length, 0);
 console.log(result);
 
 console.log(`Le résultat est ${result}`); // L'interpolation
-console.log ('Le résultat est ' + result); // La concatération
+console.log ('Le résultat est ' + result); // La concaténation
 
 // vérifier si le résultat est pair ou impair
 
